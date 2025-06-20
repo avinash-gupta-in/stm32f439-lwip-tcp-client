@@ -110,8 +110,11 @@ void MX_LWIP_Init(void)
   /* USER CODE END H7_OS_THREAD_NEW_CMSIS_RTOS_V2 */
 
   /* USER CODE BEGIN 3 */
-
-/* USER CODE END 3 */
+  if(netif_is_link_up(&gnetif))
+  {
+	  is_net_up=1;
+  }
+  /* USER CODE END 3 */
 }
 
 #ifdef USE_OBSOLETE_USER_CODE_SECTION_4

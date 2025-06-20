@@ -297,7 +297,6 @@ void StartDefaultTask(void *argument)
   /* USER CODE BEGIN 5 */
   printf("Simple TCP Client example for Nucleo 439 using lwIP stack\r\n ");
   printf("---------------------------------------------------------\r\n ");
-  osDelay(2000);
 
   while(is_net_up==0)
   {
