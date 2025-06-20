@@ -303,6 +303,8 @@ void StartDefaultTask(void *argument)
 	  printf("Waiting for Ethernet Cable plug in ... \r\n ");
 	  osDelay(1000);
   }
+
+  printf("GREAT! Cable plugged in !\r\n ");
   //Simple TCP Client!
   //IP address of the remote server
   ip_addr_t server_ip;

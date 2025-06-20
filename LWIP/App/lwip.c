@@ -95,7 +95,7 @@ void MX_LWIP_Init(void)
   netif_set_default(&gnetif);
 
   /* We must always bring the network interface up connection or not... */
-  //netif_set_up(&gnetif);
+  netif_set_up(&gnetif);
 
   /* Set the link callback function, this function is called on change of link status*/
   netif_set_link_callback(&gnetif, ethernet_link_status_updated);
