@@ -37,7 +37,7 @@ RealTerm.
 ![STM32F439 Board Running lwIP and FreeRTOS](https://www.extremeelectronics.co.in/github/stm32-lwip/stm32f439-tcp-client-example-lwip.png)
 
 ## Server on PC
-To craete a server on PC, use application like Hercules. Open TCP port number 5000.
+To create a server on PC, use application like Hercules. Open TCP port number 5000.
 
 ![STM32F439 Board Running lwIP and FreeRTOS](https://www.extremeelectronics.co.in/github/stm32-lwip/hercules-tcp-client-output.png)
 
