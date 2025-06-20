@@ -27,3 +27,12 @@ https://www.stm32tutorials.com
 Author: Avinash Gupta
 
 ![STM32F439 Board Running lwIP and FreeRTOS](https://www.extremeelectronics.co.in/github/stm32-lwip/stm32f439_nucleo.jpg)
+
+##Debug Messages
+The Nucleo 439 has in built USB to UART convertor which is connected to USART3
+peripheral of the main microcontroller (STM32F439). So we can easily printf to
+the USART3 and view those messages on our PC using terminal programs like 
+RealTerm.
+
+![STM32F439 Board Running lwIP and FreeRTOS](https://www.extremeelectronics.co.in/github/stm32-lwip/stm32f439-tcp-client-example-lwip.png)
+
